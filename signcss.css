@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: var(--font-family,CircularSpTitle,CircularSpTitle-Tall,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+}
+body
+{
+    background-color: black;
+    
+}
+#tittle-name
+{
+    margin-left: 30px;
+    margin-top:40px;
+}
+#tittle-name a{
+    text-decoration: none;
+    font-size: 20px;
+    color:#ffff;
+    font-weight: 700;
+}
+#tittle-name i{
+     color: #0bb127;
+}
+.sign-in-div
+{
+    width: 9cm;
+    height: 18cm;
+    border: 3px solid ;
+    position: relative;
+    left:15cm;
+}
+.sign-in-div h1{
+    color: #ffff;
+    font-size: 49px;
+    letter-spacing: -2px;
+}
+.email-div
+{
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    position: relative;
+    top: 0.8cm;
+    
+}
+.email-div input
+{
+    height: 1.2cm;
+    background-color: black;
+    border: 1px solid #ffff;
+    width: 8.8cm;
+    border-radius: 2px;
+}
+.sign-in-div a{
+    color: #0bb127;
+    position: relative;
+    top: 1cm;
+    font-size: 14px;
+    font-weight: 600;
+}
+.sign-in-div button
+{
+    border-radius: 25px;
+    background-color: #0bb127;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    top:1.8cm;
+    width: 8.8cm;
+    height: 1.3cm;
+    border: #0bb127;
+    left:0cm;
+}
+hr
+{
+    width: 3cm;
+    height: -3px;
+    display:inline-block;
+    position: relative;
+    top: -4px;
+    left: 1px;
+}
+.hrizontal-div
+{
+    position: relative;
+    top: 2.2cm;
+    left: 1cm;
+}
+
+label
+{
+    color: #ffff;
+}
+.but-div button
+{
+    border-radius: 25px;
+    background-color: black;
+    font-size: 18px;
+    font-weight: 600;
+    width: 8.8cm;
+    height: 1.3cm;
+    color: #ffff;
+    border: 0.5px solid white;
+    margin-top: 0.7cm;
+}
+.but-div a{
+    color: #ffff;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration:  none;
+    position: relative;
+    top: -0cm;
+    left:0.1cm;
+}
+.but-div i{
+    font-size: 30px;
+    position: relative;
+    left: -50px;
+}
+#login-anchor
+{
+    color: #ffff;
+    position: relative;
+    top: 3cm;
+    left: 10px;
+}
+#state-log
+{
+    position: relative;
+    top: 3cm;
+    left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}

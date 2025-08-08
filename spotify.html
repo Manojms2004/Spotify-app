@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify clone</title>
+    <link rel="icon" href="/images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/sp.css">
+</head>
+
+<body>
+    <div class="outer-of-all">
+        <div id="outer-of-left">
+            <div class="left-side1">
+                <div id="d1-of-left1" class="head-anchor">
+                    <i class="fa-brands fa-spotify fa-2xl"></i>
+                    <a href="#">Spotify</a>
+                </div>
+                <div id="d1-of-left1" class="middle-anchor">
+                    <i class="fa-solid fa-house fa-lg"></i>
+                    <a href="#f-r"><span>Home</span></a>
+                </div>
+                <div id="d1-of-left1" class="last-anchor">
+                    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                    <a href="#"><span>Search</span></a>
+                </div>
+            </div>
+            <div class="left-side2">
+                <div class="fixed-div1">
+                    <img src="/images/library.png" alt="">
+                    <a  tittle="Collapse your Library" href="#">Your Library</a>
+                    <i class="fa-solid fa-plus fa-lg"></i>
+                </div>
+                <div class="srocling-div">
+                    <div class="inner-srcol1">
+                        <h5 id="text-srcoll1">Create your first playlist</h5>
+                        <h6 id="text-srcoll1">it's easy we will help you</h6>
+                        <button id="text-srcoll1">Create playlist</button>
+                    </div>
+                    <div class="inner-srcol1">
+                        <h5 id="text-srcoll1">Let's find some podcast to follow</h5>
+                        <h6 id="text-srcoll1">we will keep you update on new episodes</h6>
+                        <button id="text-srcoll1">Browse podcasts</button>
+                    </div>
+                </div>
+                <div class="footer-div-of-left2">
+                    <div class="contain-anchor">
+                        <a href="https://www.spotify.com/in-en/legal/end-user-agreement/">Legal</a>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/reporting-content">safety & privacy center</a>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/">privacy policy</a>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a>
+                    </div>
+                    <div class="contain-anchor">
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">Adout Ads</a>
+                        <a href="https://www.spotify.com/in-en/accessibility">Accessibility</a>
+                    </div>
+                    <div class="contain-anchor">
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a>
+                    </div>
+                    <button><i class="fa-solid fa-globe fa-lg"></i><span>English</span></button>
+                </div>
+            </div>
+        </div>
+        <div class="right-big-div">
+            <div class="nav_1-in-right-big">
+                <div class="div-sign-in-but">
+                    <a href="/signup.html" target="_blank">Sign in</a>
+                </div>
+                <div class="div-sign-in-but">
+                    <button><a href="/signup.html">Login</a></button>
+                </div>
+            </div>
+            <div id="f-r" class="first-row-cards">
+                <a href="#">Bollywood artists</a>
+                <div id="f-y">
+                    <div class="cards-fristin5">
+                        <img id="hie-high" src="/images/Arjit.jpeg" alt="Arjit sing">
+                        <button  id="arjit" onclick="Arjith_song()"><i class="fa-solid fa-play fa-2xl"></i>b</button><audio id="ar-audio_arjit" src="/songs/arjith_singh.mp3"></audio>
+                        <button id="row_1_c1" class="stop_song" onclick="stop_song_Arjit()"><i class="fa-solid fa-pause fa-2xl"></i>s</button>
+                        <h4>Arijit Singh</h4>
+                        <h5>Artist</h5>
+                        <script src="/spo.js"></script>
+                    </div>
+                    <div class="cards-fristin5">
+                        <img src="/images/alka.jpeg" alt="Alka">
+                        <button id="Neha" onclick="Neha_song()"><i class="fa-solid fa-play fa-2xl"></i>b</button><audio id="ar-audio_Neha" src="/songs/Neha Kakkar.mp3"></audio>
+                        <button id="row_1_c2" class="stop_song" onclick="stop_song_Neha()" ><i class="fa-solid fa-pause fa-2xl"></i>s</button>
+                        <h4>Neha kakkar</h4>
+                        <h5>Artist</h5>
+                    </div>
+                    <div class="cards-fristin5">
+                        <img src="/images/Anirud.jpeg" alt="Anirud">
+                        <button id="anir" onclick="Anirud_song()"><i class="fa-solid fa-play fa-2xl"></i>b</button><audio id="ar-audio_Anirud" src="/songs/Anirod_song.mp3"></audio>
+                        <button id="row_1_c3" class="stop_song" onclick="stop_song_Anirud()" ><i class="fa-solid fa-pause fa-2xl"></i>s</button>
+                        <h4>Anirudh Ravichander</h4>
+                        <h5>Artist</h5>
+                    </div>
+                    <div class="cards-fristin5">
+                        <img src="/images/pritam.jpeg" alt="Pretam">
+                        <button id="pritam" onclick="pritam_song()"><i class="fa-solid fa-play fa-2xl"></i>b</button><audio id="ar-audio_pritam" src="/songs/pritam.mp3"></audio>
+                        <button id="row_1_c4" class="stop_song" onclick="stop_song_pritam()" ><i class="fa-solid fa-pause fa-2xl"></i>s</button>
+                        <h4>Pritam</h4>
+                        <h5>Artist</h5>
+                    </div>
+                    <div class="cards-fristin5">
+                        <img id="hie-high" src="/images/shreya.jpeg" alt="Shreya">
+                        <button id="shreya" onclick="shreya_song()"><i class="fa-solid fa-play fa-2xl"></i>b</button><audio id="ar-audio_shreya" src="/songs/shreya.mp3"></audio>
+                        <button id="row_1_c5" class="stop_song" onclick="stop_song_shreya()" ><i class="fa-solid fa-pause fa-2xl"></i>s</button>
+                        <h4>Shreya Ghoshal</h4>
+                        <h5>Artist</h5>
+                    </div>
+                </div>
+            </div>
+            <div id="f-r" class="second-row-cards">
+                <a href="#">Sandalwood artists</a>
+                <div id="f-y">
+                    <div class="cards-fristin5">
+                        <img id="hie-high" src="/images/hemanth.jpeg" alt="Hemanth">
+                        <button id="hemanth" onclick="hemanth_song()"><i class="fa-solid fa-play fa-2xl"></i>b</button><audio id="ar-audio_hemanth" src="/songs/Hemanth.mp3"></audio>
+                        <button id="row_1_c6" class="stop_song" onclick="stop_song_hemanth()" ><i class="fa-solid fa-pause fa-2xl"></i>s</button>
+                        <h4>Hemanth</h4>
+                        <h5>Artist</h5>
+                    </div>
+                    <div class="cards-fristin5">
+                        <img src="/images/raghu_dixit.jpeg" alt="Raghu dikshith">
+                        <button id="raghu" onclick="raghu_song()"><i class="fa-solid fa-play fa-2xl"></i>b</button><audio id="ar-audio_raghu" src="/songs/raghu_dic.mp3"></audio>
+                        <button id="row_1_c7" class="stop_song" onclick="stop_song_raghu()" ><i class="fa-solid fa-pause fa-2xl"></i>s</button>
+                        <h4>Raghu dikshith</h4>
+                        <h5>Artist</h5>
+                    </div>
+                    <div class="cards-fristin5">
+                        <img src="/images/sanjit_hegade.jpeg" alt="Sanjit hegade">
+                        <button id="sanjit" onclick="sanjit_song()"><i class="fa-solid fa-play fa-2xl"></i>b</button><audio id="ar-audio_sanjit" src="/songs/Sanji hegde.mp3"></audio>
+                        <button id="row_1_c8" class="stop_song" onclick="stop_song_sanjit()" ><i class="fa-solid fa-pause fa-2xl"></i>s</button>
+                        <h4>Sanjit hegade</h4>
+                        <h5>Artist</h5>
+                    </div>
+                    <div class="cards-fristin5">
+                        <img src="/images/vijay_prakash.jpeg" alt="Vijay prakash">
+                        <button id="vijay" onclick="vijay_song()"><i class="fa-solid fa-play fa-2xl"></i>b</button><audio id="ar-audio_vijay" src="/songs/vijay prakash.mp3"></audio>
+                        <button id="row_1_c9" class="stop_song" onclick="stop_song_vijay()" ><i class="fa-solid fa-pause fa-2xl"></i>s</button>
+                        <h4>Vijay prakash</h4>
+                        <h5>Artist</h5>
+                    </div>
+                    <div class="cards-fristin5">
+                        <img id="hie-high" src="/images/Anuraga.jpeg" alt="Anuraga">
+                        <button id="Anuraga" onclick="Anuraga_song()"><i class="fa-solid fa-play fa-2xl"></i>b</button><audio id="ar-audio_Anuraga" src="/songs/Anurada.mp3"></audio>
+                        <button id="row_1_c10" class="stop_song" onclick="stop_song_Anuraga()" ><i class="fa-solid fa-pause fa-2xl"></i>s</button>
+                        <h4>Anuraga</h4>
+                        <h5>Artist</h5>
+                    </div>
+                </div>
+            </div>
+            <div id="f-r" class="third-row-cards">
+                <a href="#">Melody Songs</a>
+                <div id="f-y">
+                    <div class="cards-fristin5">
+                        <img id="hie-high" src="/images/guru.jpeg" alt="Guru kiran">
+                        <button id="guru" onclick="guru_song()"><i class="fa-solid fa-play fa-2xl"></i>b</button><audio id="ar-audio_guru" src="/songs/guru.mp3"></audio>
+                        <button id="row_1_c11" class="stop_song" onclick="stop_song_guru()" ><i class="fa-solid fa-pause fa-2xl"></i>s</button>
+                        <h4>Guru kiran</h4>
+                        <h5>Artist</h5>
+                    </div>
+                    <div class="cards-fristin5">
+                        <img src="/images/sp.jpeg" alt="sp">
+                        <button id="sp" onclick="sp_song()"><i class="fa-solid fa-play fa-2xl"></i>b</button><audio id="ar-audio_sp" src="/songs/sp.mp3"></audio>
+                        <button id="row_1_c12" class="stop_song" onclick="stop_song_sp()" ><i class="fa-solid fa-pause fa-2xl"></i>s</button>
+                        <h4>s.p Balasubramanyum</h4>
+                        <h5>Artist</h5>
+                    </div>
+                    <div class="cards-fristin5">
+                        <img src="/images/rajesh.jpeg" alt="Rajesh Krishnan">
+                        <button id="rajesh" onclick="rajesh_song()"><i class="fa-solid fa-play fa-2xl"></i>b</button><audio id="ar-audio_rajesh" src="/songs/rajesh.mp3"></audio>
+                        <button id="row_1_c13" class="stop_song" onclick="stop_song_rajesh()" ><i class="fa-solid fa-pause fa-2xl"></i>s</button>
+                        <h4>Rajesh Krishnan</h4>
+                        <h5>Artist</h5>
+                    </div>
+                    <div class="cards-fristin5">
+                        <img src="/images/sonnu.jpeg" alt="sonnu nigam">
+                        <button id="sonu" onclick="sonu_song()"><i class="fa-solid fa-play fa-2xl"></i>b</button><audio id="ar-audio_sonu" src="/songs/sonu.mp3"></audio>
+                        <button id="row_1_c14" class="stop_song" onclick="stop_song_sonu()" ><i class="fa-solid fa-pause fa-2xl"></i>s</button>
+                        <h4>Sonu nigam</h4>
+                        <h5>Artist</h5>
+                    </div>
+                    <div class="cards-fristin5">
+                        <img id="hie-high" src="/images/puneeth.jpeg" alt="Shreya">
+                        <button id="puneeth" onclick="puneeth_song()"><i class="fa-solid fa-play fa-2xl"></i>b</button><audio id="ar-audio_puneeth" src="/songs/puneeth raj kumar.mp3"></audio>
+                        <button id="row_1_c15" class="stop_song" onclick="stop_song_puneeth()" ><i class="fa-solid fa-pause fa-2xl"></i>s</button>
+                        <h4>Punneth raj Kumar</h4>
+                        <h5>Artist</h5>
+                    </div>
+                </div>
+            </div>
+                <div id="f-r" class="fourth-row-cards">
+                    <a href="#">Old songs artists</a>
+                    <div id="f-y">
+                        <div class="cards-fristin5">
+                            <img id="hie-high" src="/images/ks_chaithre.jpeg" alt="ks chaithra">
+                            <button id="chaithra" onclick="chaithra_song()"><i class="fa-solid fa-play fa-2xl"></i>b</button><audio id="ar-audio_chaithra" src="/songs/k s chaitra.mp3"></audio>
+                            <button id="row_1_c16" class="stop_song" onclick="stop_song_chaithra()" ><i class="fa-solid fa-pause fa-2xl"></i>s</button>
+                            <h4>K S Chaithra</h4>
+                            <h5>Artist</h5>
+                        </div>
+                        <div class="cards-fristin5">
+                            <img src="/images/latha_mageshkar.webp" alt="latha Mangeshkar">
+                            <button id="latha" onclick="latha_song()"><i class="fa-solid fa-play fa-2xl"></i>b</button><audio id="ar-audio_latha" src="/songs/latha Mangeshkar.mp3"></audio>
+                            <button id="row_1_c17" class="stop_song" onclick="stop_song_latha()" ><i class="fa-solid fa-pause fa-2xl"></i>s</button>
+                            <h4>Latha Mangeshkar</h4>
+                            <h5>Artist</h5>
+                        </div>
+                        <div class="cards-fristin5">
+                            <img src="/images/ln_shastri.jpeg" alt="Ln_ shasthri">
+                            <button id="shastri" onclick="shastri_song()"><i class="fa-solid fa-play fa-2xl"></i>b</button><audio id="ar-audio_shastri" src="/songs/l n shastri.mp3"></audio>
+                            <button id="row_1_c18" class="stop_song" onclick="stop_song_shastri()" ><i class="fa-solid fa-pause fa-2xl"></i>s</button>
+                            <h4>L N Shasthri</h4>
+                            <h5>Artist</h5>
+                        </div>
+                        <div class="cards-fristin5">
+                            <img src="/images/rajkaumar.jpeg" alt="Raj kumar">
+                            <button id="rajkumar" onclick="rajkumar_song()"><i class="fa-solid fa-play fa-2xl"></i>b</button><audio id="ar-audio_rajkumar" src="/songs/Dr raj kumar.mp3"></audio>
+                            <button id="row_1_c19" class="stop_song" onclick="stop_song_rajkumar()" ><i class="fa-solid fa-pause fa-2xl"></i>s</button>
+                            <h4>Dr Rajkumar</h4>
+                            <h5>Artist</h5>
+                        </div>
+                        <div class="cards-fristin5">
+                            <img id="hie-high" src="/images/s ganaki.jpeg" alt="s ganaki">
+                            <button id="janaki" onclick="janaki_song()"><i class="fa-solid fa-play fa-2xl"></i>b</button><audio id="ar-audio_janaki" src="/songs/s janaki.mp3"></audio>
+                            <button id="row_1_c20" class="stop_song" onclick="stop_song_janaki()" ><i class="fa-solid fa-pause fa-2xl"></i>s</button>
+                            <h4>S Janaki</h4>
+                            <h5>Artist</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- yfyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy -->
+                <!-- <div id="f-r" class="five-row-cards">
+                    <a href="#">Popular artists</a>
+                    <div id="f-y">
+                        <div class="cards-fristin5">
+                            <img id="hie-high" src="/images/Arjit.jpeg" alt="Arjit sing">
+                            <button><i class="fa-solid fa-play fa-2xl"></i>i</button>
+                            <h4>Arijit Singh</h4>
+                            <h5>Artist</h5>
+                        </div>
+                        <div class="cards-fristin5">
+                            <img src="/images/alka.jpeg" alt="Alka">
+                            <button><i class="fa-solid fa-play fa-2xl"></i>i</button>
+                            <h4>Alka yagnik</h4>
+                            <h5>Artist</h5>
+                        </div>
+                        <div class="cards-fristin5">
+                            <img src="/images/Anirud.jpeg" alt="Anirud">
+                            <button><i class="fa-solid fa-play fa-2xl"></i>i</button>
+                            <h4>Anirudh Ravichander</h4>
+                            <h5>Artist</h5>
+                        </div>
+                        <div class="cards-fristin5">
+                            <img src="/images/pritam.jpeg" alt="Pretam">
+                            <button><i class="fa-solid fa-play fa-2xl"></i>i</button>
+                            <h4>Pritam</h4>
+                            <h5>Artist</h5>
+                        </div>
+                        <div class="cards-fristin5">
+                            <img id="hie-high" src="/images/shreya.jpeg" alt="Shreya">
+                            <button><i class="fa-solid fa-play fa-2xl"></i>i</button>
+                            <h4>Shreya Ghoshal</h4>
+                            <h5>Artist</h5>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- lnhhhhhhhbhy;mmctiknir -->
+                <div class="footer-at-end">
+                    <div id="foo-in-div1" class="footer-in-div1">
+                        <div class="items-inner-footer">
+                            <h3>Company</h3>
+                            <a href="#">About</a><br><br>
+                            <a href="#">Jobs</a><br><br>
+                            <a href="#">For the record</a>
+                        </div>
+                        <div class="items-inner-footer">
+                            <h3>Communities</h3>
+                            <a href="#">For Artists</a><br><br>
+                            <a href="#">Developers</a><br><br>
+                            <a href="#">Advertising</a><br><br>
+                            <a href="#">Investors</a><br><br>
+                            <a href="#">Vendors</a><br>
+                        </div>
+                        <div class="items-inner-footer">
+                            <h3>Useful links</h3>
+                            <a href="#">Support</a><br><br>
+                            <a href="#">Free</a><br><br>
+                            <a href="">Mobiles</a><br><br>
+                            <a href="">App</a>
+                        </div>
+                        <hr>
+                        <br><br>
+                        <a id="dommy" href="#">@ 2024 spotify AB</a>
+                    </div>
+                    <div id="foo-in-div2" class="footer-in-div1">
+                        <div class="icons-od-div2-in-footer">
+                            <div class="icons-of-footer-div">
+                                <i id="instaLogo" class="fa-brands fa-instagram fa-lg" onclick="instaclick()"></i>     
+                            </div>
+                            <div class="icons-of-footer-div">
+                             <i id="twitterLogo" class="fa-brands fa-twitter fa-lg" onclick="twitter()"></i>   
+                            </div>
+                            <div class="icons-of-footer-div">
+                                <i id="faceBook" class="fa-brands fa-facebook fa-lg" onclick="faceBook()"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-div">
+            <div class="text-of-footer">
+                <h3 id="headings">Preview of spotify</h3>
+                <h3 id="headings">Sign up to get unlimited songs and podcasts with occasional ads.No credit card needed.
+                </h3>
+            </div>
+            <div class="dut-of-footer">
+                <button><a href="/signup.html">Sign up free</a></button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<!-- <button id="but1" onclick="play()">Submit</button>
+<audio id="audio" src="audiofiles/Arjith_sigh.mp3"></audio>
+
+<script src="/htmlscode.html/song.js"></script> -->
